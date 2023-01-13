@@ -19,13 +19,13 @@ And the allowed animals are:<br/>
 - ELEPHANT<br/>
 - MONKEY<br/>
 
-3.For the url-parser endpoint, the request's body must have the next format:
+3. For the url-parser endpoint, the request's body must have the next format:
 ```json
  {
    "urlFormatString": "/:version/api/:collection/:id",
    "urlInstance": "/6/api/listings/3?sort=desc&limit=10"
 }
 ```
-4.Alarm Error endpoint
+4. Alarm Error endpoint
 - Is a get to http://localhost:3000/error-alarm
 - The log file is called errorLog.txt (log directory)
