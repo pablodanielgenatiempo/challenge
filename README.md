@@ -2,8 +2,9 @@
    node src/index.js
 
 _Available endpoints_ <br/>
-http://localhost:3000/zoo (post)
-http://localhost:3000/url-parser (post)
+http://localhost:3000/zoo (post)<br/>
+http://localhost:3000/url-parser (post)<br/>
+http://localhost:3000/error-alarm (get)
 
 2. For the zoo endpoint, the request's body must have the next format:
 ```json
@@ -25,3 +26,6 @@ And the allowed animals are:<br/>
    "urlInstance": "/6/api/listings/3?sort=desc&limit=10"
 }
 ```
+4.Alarm Error endpoint
+- Is a get to http://localhost:3000/error-alarm
+- The log file is called errorLog.txt (log directory)
